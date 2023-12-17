@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(75, 75, 75)
+}
+.WRAPPER{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+grid-gap: 5px;
+}
+img{width: 100%;
+border-radius: 20PX;}
+#container{
+    width: 952px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#header{
+    width: 952px;
+    height: 262px;
+    background-color: navy;
+    background-image: url(dlsr.jpeg.jpg);
+}
+#navigasi{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+#navigasi ul{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    list-style: none;
+}
+#navigasi ul il a {
+    text-decoration: none;
+    font-family: "segoe UI", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 10000;
+    padding: 10px 0;
+    transition: all;
+    transition-duration: 3000ms;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+#navigasi ul li a:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+}
+#content{
+    width: 922px;
+    background-color:navy;
+    padding: 5px 15px 5px 15px;
+}
+#content h1 {color: rgb(255, 255, 255);}
+#content p {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2em ;
+}
+#content img{
+    float: left;
+    margin-right: 40;
+    width: 450px;
+    height: 300px;
+    padding: 10px;
+    
+
+}
+#footer{
+    width: 952px;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 30px;
+}
+#footer p{
+    color: rgb(255, 242, 242);
+    text-align: center;
+
+    
